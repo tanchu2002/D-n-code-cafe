@@ -7,58 +7,110 @@
     <link rel="stylesheet" href="/Chi Tiết SP/css/style.css">
 </head>
 <body>
-    <!-- Header -->
+    <!-- Header section -->
     <header class="section header">
-        <div class="header-content">
-            <div class="logo">
-                <h1 class="brand-name">
-                    Coffee Premium
-                </h1>
-            </div>
-
-            <div class="navigator">
-                <a href="#" class="navigator-hyperlink">Trang chủ</a>
-                <a href="#" class="navigator-hyperlink">Sản phẩm</a>
-                <a href="#" class="navigator-hyperlink">Giới thiệu</a>
-                <a href="#" class="navigator-hyperlink">Blog</a>
-                <a href="#" class="navigator-hyperlink">Liên hệ</a>
-            </div>
-
-            <div class="search-bar">
-                <div class="search-icon">
-                    <img src="/Chi Tiết SP/icons/header/search.svg">
-                </div>
-                <div>
-                    <input type="text" class="search-box" placeholder="Tìm kiếm sản phẩm...">    
+        <div id="header-content">
+            <div id="header-left-side">
+                <div class="logo">                              <!-- Brand name -->
+                <h1 class="brand-name">Coffee Premium</h1>      <!-- Brand name -->
                 </div>
             </div>
 
-            <div class="user-container">
-                <div class="user-icon">
-                    <img src="/Chi Tiết SP/icons/header/user.svg">
+            <!-- Navigator -->
+
+            <div id="header-hyperlink-container">   <!-- Navigator container -->
+                <div class="navigator">
+                <a href="#" class="navigator-hyperlink">Trang chủ</a>   <!-- Navigator hyperlink -->
+                <a href="#" class="navigator-hyperlink">Sản phẩm</a>    <!-- Navigator hyperlink -->
+                <a href="#" class="navigator-hyperlink"> Giới thiệu</a> <!-- Navigator hyperlink -->
+                <a href="#" class="navigator-hyperlink">Blog</a>        <!-- Navigator hyperlink -->
+                <a href="#" class="navigator-hyperlink">Liên hệ</a>     <!-- Navigator hyperlink -->
                 </div>
-                <div class="user-name">
-                    <p>Tài khoản</p>
+            </div>
+
+            <!-- Right side of the header -->
+
+            <div id="header-right-side">  <!-- Right side container -->
+                <div class="search-bar">    <!-- Search bar container -->
+                    <div class="search-icon">
+                        <img src="/Chi Tiết SP/icons/header/search.svg">
+                    </div>
+                    <div>
+                        <input type="text" class="search-box" placeholder="Tìm kiếm sản phẩm...">
+                    </div>
+                </div>
+                <div class="user-container">    <!-- User button container -->
+                    <div class="user-icon">
+                        <img src="/Chi Tiết SP/icons/header/user.svg">
+                    </div>
+                    <div class="user-icon-container">
+                        <button class="user-button">    <!-- The user button -->
+                            Tài khoản
+                        </button>
+                    </div>
+                </div>
+                <div class="shopping-cart-container">   <!-- Shopping cart container -->
+                    <div>   <!-- Shopping cart icon -->
+                        <button class="shopping-cart-button">
+                            <img class="shopping-cart-icon" src="/Chi Tiết SP/icons/header/black-cart.svg">
+                        </button>
+                    </div>
+                    <div class="notifications-count">   <!-- Notification count of 2 notifications -->
+                        2   <!-- 2 notifications -->
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Navigation -->
-    <nav class="section nav">
-
-    </nav>
-
     <!-- Main content -->
     <main class="section main">
-        <div class="main-content">
-            <section class="content">
-                
-            </section>
+        <div id="main-content-container">           <!-- Main container -->
+            <div id="product-basic-infomations">    <!-- Product basic informations container -->
+                <div class="site-path">             <!-- Displaying the path of the site -->
+                    <p class="the-path">
+                        Trang chủ / Sản phẩm / Cà phê Arabica Ethiopia  <!-- Site path -->
+                    </p>
+                </div>
+                <div id="two-columns-separe">
+                    <div id="main-left-side">           <!-- Left side of product basic informations -->
+
+                        <!-- Main image of the current product -->
+                        <div class="product-gallery">
+                            <div class="main-product-image">
+                                <img class="main-image" src="/Chi Tiết SP/images/current-product/main-shot.avif">
+                            </div>
+
+                            <!-- Another images of the current product -->
+                            <div class="another-product-images">
+                                <img class="another-image first-image" src="/Chi Tiết SP/images/current-product/main-shot.avif">
+                                <img class="another-image" src="/Chi Tiết SP/images/current-product/second-shot.avif">
+                                <img class="another-image" src="/Chi Tiết SP/images/current-product/third-shot.avif">
+                                <img class="another-image last-image" src="/Chi Tiết SP/images/current-product/fourth-shot.avif">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main-right-side">          <!-- Right side of product basic informations -->
+                        <div class="product-informations">  <!-- Product name, price and reviews -->
+                            <div class="product-name">
+                                <h1>Cà phê Arabica Ethiopia</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="product-detail">               <!-- 3 columns of product details -->
+
+            </div>
+            
+            <div id="relevant-products">            <!-- 3 relevant products -->
+
+            </div>
         </div>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer section -->
     <footer class="section footer">
 
     </footer>
